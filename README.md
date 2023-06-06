@@ -1,6 +1,21 @@
-# carousel
+# EXP 07 - IMAGE CAROUSEL
 
-## SliderImage.js
+## AIM:
+
+To create an image carousel using hooks.
+
+## ALGORITHM:
+
+1. Create a new React JS project using npx create-react-app react-carousel and cd into the project directory i.e. cd react-carousel.
+
+2. Create two folder inside the src directory: assets, components.
+
+3. Insert src/assets directory, import your images. Create necessary files inside the src/components directory.
+
+4. The hooks useState() & useEffect() are used to change the state of sliderImage (i.e active or inactive) & to apply the effect
+
+## CODE:
+### SliderImage.js
 ```java
 import first from "../assets/first.jpg";
 import second from "../assets/second.jpg";
@@ -25,7 +40,7 @@ export default[
 ];
 ```
 
-## Arrows.js
+### Arrows.js
 ```js
 import React from "react";
 
@@ -45,7 +60,7 @@ function Arrows({prevSlide, nextSlide}){
 export default Arrows;
 ```
 
-## Dots.js
+### Dots.js
 ```java
 import React from "react";
 
@@ -66,7 +81,7 @@ function Dots ({activeIndex, onClicks, sliderImage}){
 export default Dots;
 ```
 
-## SliderContent.js
+### SliderContent.js
 ```java
 import React from "react";
 
@@ -89,7 +104,7 @@ function SliderContent ({ activeIndex, sliderImage}){
 export default SliderContent;
 ```
 
-## Slider.js
+### Slider.js
 ```java
 import React, {useEffect, useState} from "react";
 import SliderContent from "./SliderContent";
@@ -132,7 +147,7 @@ function Slider(props){
 export default Slider;
 ```
 
-## slider.css
+### slider.css
 ```java
 * {
     box-sizing: border-box;
@@ -262,7 +277,7 @@ export default Slider;
   }
 ```
 
-## App.js
+### App.js
 ```java
 import Slider from "./components/Slider";
 
@@ -285,3 +300,8 @@ export default App;
 
 ### SLIDE 3:
 ![image](https://github.com/Aashima02/carousel/assets/93427086/48b753e6-74ce-4b6c-b9f3-fd620d4ae9d8)
+
+## RESULT:
+
+So, an image carousel is created using hooks.
+
