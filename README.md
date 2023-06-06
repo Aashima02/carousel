@@ -272,3 +272,16 @@ function App() {
 
 export default App;
 ```
+
+## OUTPUT: 
+
+### SLIDE 1:
+![image](https://github.com/Aashima02/carousel/assets/93427086/3147f552-238f-44c8-ad1c-f9281ea755ea)
+
+
+### SLIDE 2:
+![image](https://github.com/Aashima02/carousel/assets/93427086/15049eef-8d65-4586-abe1-5f541bf456b4)
+
+
+### SLIDE 3:
+![image](https://github.com/Aashima02/carousel/assets/93427086/48b753e6-74ce-4b6c-b9f3-fd620d4ae9d8)
